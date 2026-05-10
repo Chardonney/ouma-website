@@ -1,0 +1,76 @@
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    gap: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.description img{
+    border-radius:50%;
+    float: left;
+    margin: 10px;
+}
+.photos{
+    margin: 50px;
+}
+.poems {
+    display: inline-flex;
+    gap:10px;
+    justify-content: space-around;
+    grid-row-start:2;
+    grid-row-end: -3;
+    grid-column: span 2;
+}
+footer{
+    grid-row-start: 3;
+    grid-row-end: -2;
+}
+#poem1 {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: #f6cbd5;
+    text-align: center;
+}
+#poem2 {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: #91d3d6;
+    text-align: center;
+}
+#poem3 {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: #dba9fc;
+    text-align: center;
+}
+#poem4 {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: #c4dcff;
+    text-align: center;
+}
